@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+  <repo quality="experimantal" status="uonofficial">
+    <name>xenia-overlay</name>
+      <description lang="en">Xenia Linux's Gentoo Overlay.</description>
+        <homepage>https://xenialinux.com</homepage>
+        <owner type="person">
+          <name>Mia Neufeld</name>
+          <email>koishi@koishi.de</name>
+        </owner>
+        <source type="git">https://gitlab.com/xenia-group/xenia-overlay</git>
+        <feed>https://gitlab.com/xenia-group/xenia-overlay/commits/main.atom</feed>
+    </repo>
+</repositories>
