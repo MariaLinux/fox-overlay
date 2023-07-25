@@ -46,7 +46,7 @@ BDEPEND="
 	dev-vcs/git
 "
 
-IUSE="+X +wayland +systemd udev gtk-doc"
+IUSE="+X +wayland systemd udev gtk-doc"
 
 src_prepare() {
 	default
