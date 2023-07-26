@@ -6,12 +6,14 @@ EAPI=7
 inherit optfeature prefix
 
 if [[ ${PV} != *9999* ]]; then
-	SRC_URI="https://gitlab.com/xenia-group/${PN}/archive/${PV}/${P}.tar.gz"
+	SRC_URI="https://gitlab.com/xenia-group/neofetch/-/archive/main/neofetch-main.tar.gz"
 	KEYWORDS="amd64 arm arm64 ~hppa ~ia64 ~loong ~mips ~ppc ~ppc64 ~riscv ~sparc x86 ~arm64-macos ~x64-macos"
 else
 	inherit git-r3
 	EGIT_REPO_URI="https://gitlab.com/xenia-group/neofetch.git"
 fi
+
+S="${WORKDIR}/${PN}-main"
 
 DESCRIPTION="Simple information system script - Xenia Linux Fork"
 HOMEPAGE="https://gitlab.com/xenia-group/neofetch"
