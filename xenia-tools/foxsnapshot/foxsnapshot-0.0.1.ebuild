@@ -17,7 +17,7 @@ HOMEPAGE="https://xenialinux.com"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="**"
+KEYWORDS="~amd64"
 IUSE=""
 
 DEPEND=""
