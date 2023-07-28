@@ -2,10 +2,10 @@
 
 Portage overlay for Xenia Linux.
 
-List of Maintainers:
+List of Maintainers:\
 Mia Neufeld - mia@xenialinux.com - Head Maintainer \
 Luna Deards luna@xenialinux.com \
-Jack Eilles jack@xenialinux.com \
+Jack Eilles jack@xenialinux.com 
 
 How to install:
 
