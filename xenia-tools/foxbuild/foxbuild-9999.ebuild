@@ -20,7 +20,6 @@ HOMEPAGE="https://xenialinux.com"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="**"
 IUSE=""
 
 DEPEND=""
