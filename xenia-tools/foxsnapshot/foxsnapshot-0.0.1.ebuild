@@ -12,7 +12,7 @@ else
 	KEYWORDS="~amd64"
 fi
 
-S="${WORKDIR}/${P}"
+S="${WORKDIR}/${PN}-main"
 
 DESCRIPTION="btrfs snapshot manager for Xenia Linux"
 HOMEPAGE="https://xenialinux.com"
