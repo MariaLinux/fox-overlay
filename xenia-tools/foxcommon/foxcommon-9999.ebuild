@@ -13,9 +13,9 @@ else
 	KEYWORDS="~amd64"
 fi
 
-S="${WORKDIR}/${DESCRIPTION }"
+S="${WORKDIR}/${PN}"
 
-P ="Common python library for Xenia Linux tools"
+DESCRIPTION="Common python library for Xenia Linux tools"
 HOMEPAGE="https://xenialinux.com"
 
 LICENSE="GPL-3"
