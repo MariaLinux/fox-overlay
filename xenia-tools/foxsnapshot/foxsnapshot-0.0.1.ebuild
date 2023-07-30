@@ -8,7 +8,7 @@ if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://gitlab.com/xenia-group/foxsnapshot.git"
 else
-	SRC_URI="https://gitlab.com/xenia-group/foxsnapshot/-/archive/main/foxsnapshot-main.tar.gz"
+	SRC_URI="https://gitlab.com/xenia-group/foxsnapshot/-/archive/main/foxsnapshot.tar.gz"
 	KEYWORDS="~amd64"
 fi
 
