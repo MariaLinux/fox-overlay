@@ -23,5 +23,5 @@ SLOT="0"
 KEYWORDS="**"
 IUSE=""
 
-DEPEND=""
-RDEPEND=""
+DEPEND="xenia-tools/foxcommon"
+RDEPEND="${DEPEND}"

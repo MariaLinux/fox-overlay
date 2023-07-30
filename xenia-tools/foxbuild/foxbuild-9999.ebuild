@@ -22,5 +22,5 @@ LICENSE="GPL-3"
 SLOT="0"
 IUSE=""
 
-DEPEND=""
-RDEPEND=""
+DEPEND="xenia-tools/foxcommon"
+RDEPEND="${DEPEND}"
