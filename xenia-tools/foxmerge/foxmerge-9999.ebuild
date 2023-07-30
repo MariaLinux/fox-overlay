@@ -24,6 +24,7 @@ KEYWORDS="**"
 IUSE=""
 
 DEPEND="
+	dev-python/fuzzywuzzy
 	xenia-tools/foxcommon
 	xenia-tools/foxsnapshot
 "
