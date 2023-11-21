@@ -32,4 +32,3 @@ src_install() {
     systemd_dounit declareflatpak.service
     newinitd declareflatpak.initd declareflatpak
 }
-
