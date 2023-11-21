@@ -28,6 +28,7 @@ DEPEND="xenia-tools/foxcommon"
 RDEPEND="${DEPEND}"
 
 src_install() {
+    keepdir etc/declare
     distutils-r1_src_install
     systemd_dounit declareflatpak.service
     newinitd declareflatpak.initd declareflatpak
