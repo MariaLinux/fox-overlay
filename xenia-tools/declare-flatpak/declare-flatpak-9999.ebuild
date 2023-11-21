@@ -4,6 +4,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{10..12} )
 
 inherit distutils-r1
+inherit systemd
 
 if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
@@ -25,3 +26,8 @@ IUSE=""
 
 DEPEND="xenia-tools/foxcommon"
 RDEPEND="${DEPEND}"
+
+src_install() {
+    systemd_dounit declareflatpak.service
+    newinitd declareflatpak.initd declareflatpak
+}
