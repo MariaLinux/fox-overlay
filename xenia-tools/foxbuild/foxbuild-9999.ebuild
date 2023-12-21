@@ -27,4 +27,5 @@ RDEPEND="${DEPEND}
     xenia-tools/foxcommon
     app-eselect/eselect-repository
     >=dev-util/catalyst-9999
-    sys-fs/squashfs-tools[lzma]"
+    sys-fs/squashfs-tools[lzma]
+    dev-python/tomli-w"
