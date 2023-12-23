@@ -28,4 +28,5 @@ RDEPEND="${DEPEND}
     app-eselect/eselect-repository
     >=dev-util/catalyst-9999
     sys-fs/squashfs-tools[lzma]
-    dev-python/tomli-w"
+    dev-python/tomli-w
+    dev-python/psutil"
