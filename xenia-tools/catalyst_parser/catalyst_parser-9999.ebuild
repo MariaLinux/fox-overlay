@@ -10,18 +10,18 @@ if [[ ${PV} = 9999 ]]; then
     KEYWORDS="**"
 	EGIT_REPO_URI="https://gitlab.com/xenia-group/catalyst_parser.git"
 else
-	SRC_URI="https://gitlab.com/xenia-group/catalyst_parser/-/archive/${PV}/foxcommon-${PV}.tar.gz"
+	SRC_URI="https://gitlab.com/xenia-group/catalyst_parser/-/archive/${PV}/catalyst_parser-${PV}.tar.gz"
 	KEYWORDS="amd64 arm64"
 fi
 
 S="${WORKDIR}/${P}"
 
-DESCRIPTION="Common python library for Xenia Linux tools"
+DESCRIPTION="Catalyst spec file parser and linting."
 HOMEPAGE="https://xenialinux.com"
 
-LICENSE="GPL-3"
+LICENSE="GPL-2"
 SLOT="0"
 IUSE=""
 
-DEPEND=""
+DEPEND="xenia-tools/foxcommon"
 RDEPEND=""
