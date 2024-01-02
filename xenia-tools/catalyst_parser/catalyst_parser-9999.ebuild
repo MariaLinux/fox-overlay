@@ -23,5 +23,5 @@ LICENSE="GPL-2"
 SLOT="0"
 IUSE=""
 
-DEPEND="xenia-tools/foxcommon"
-RDEPEND=""
+DEPEND=""
+RDEPEND="xenia-tools/foxcommon"

@@ -29,4 +29,5 @@ RDEPEND="${DEPEND}
     >=dev-util/catalyst-9999
     sys-fs/squashfs-tools[lzma]
     dev-python/tomli-w
-    dev-python/psutil"
+    dev-python/psutil
+    xenia-tools/catalyst_parser"

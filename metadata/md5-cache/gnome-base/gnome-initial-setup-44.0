@@ -1,4 +1,4 @@
-BDEPEND=dev-util/meson dev-vcs/git >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array virtual/pkgconfig virtual/pkgconfig
+BDEPEND=dev-util/meson dev-vcs/git >=dev-util/meson-1.2.1 app-alternatives/ninja dev-util/meson-format-array virtual/pkgconfig virtual/pkgconfig
 DEFINED_PHASES=compile configure install prepare test
 DEPEND=sys-apps/accountsservice x11-libs/cairo media-libs/fontconfig x11-libs/gdk-pixbuf gnome-base/gdm app-misc/geoclue dev-libs/glib gnome-base/gnome-desktop gnome-base/gnome-control-center gnome-base/gnome-keyring gnome-base/gsettings-desktop-schemas gui-libs/gtk dev-libs/json-glib app-crypt/mit-krb5 gui-libs/libadwaita gnome-base/libgnomekbd dev-libs/libgweather app-i18n/ibus net-libs/libnma dev-libs/libpwquality net-libs/rest app-crypt/libsecret x11-libs/pango sys-auth/polkit net-libs/webkit-gtk
 DESCRIPTION=Gnome initial setup
@@ -10,5 +10,5 @@ KEYWORDS=~amd64
 LICENSE=GPL-2
 SLOT=0
 SRC_URI=https://github.com/GNOME/gnome-initial-setup/archive/refs/tags/44.0.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	39e7a84b06eff4efd9f2e0c3d1668b98	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	12aa0037eb004139215ff04894d52b28	meson	af1ca7ad21fdd31fcc4fa91d8abca977	desktop	021728fdc1b03b36357dbc89489e0f0d	readme.gentoo-r1	204091a2cde6179cd9d3db26d09412d3	udev	eec0bbab06977f1cfc5597269c1fa152	systemd	c8b03e8df84486aa991d4396686e8942	flag-o-matic	5ae516d405b6ae5636e487ea4350a8a2	pam	b56d0c9c20fc5b553f13c8ae165a10a5
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	c8951c1dfcc1d43e3f967f61fd0ec59c	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	474cb53a7d1b62721a91809a1d702661	meson	576e6bbef90e9753368f8b4ad0bd5383	desktop	021728fdc1b03b36357dbc89489e0f0d	readme.gentoo-r1	204091a2cde6179cd9d3db26d09412d3	udev	eec0bbab06977f1cfc5597269c1fa152	systemd	c8b03e8df84486aa991d4396686e8942	flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	pam	b56d0c9c20fc5b553f13c8ae165a10a5
 _md5_=1cbeaeccd84ac3824b6d473e79860e22

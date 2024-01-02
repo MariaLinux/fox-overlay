@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DESCRIPTION=Meta package for Xenia utilities
+EAPI=8
+HOMEPAGE=https://xenialinux.com
+KEYWORDS=amd64 arm64
+LICENSE=metapackage
+RDEPEND=xenia-tools/foxmerge xenia-tools/declare-flatpak xenia-tools/foxupdate
+SLOT=0
+_md5_=efb73d22b53f0676dca6e6a10bdaf223
