@@ -26,7 +26,7 @@ DEPEND=""
 RDEPEND="${DEPEND}
     xenia-tools/foxcommon
     app-eselect/eselect-repository
-    >=dev-util/catalyst-4.0
+    >=dev-util/catalyst-4.0_rc1
     sys-fs/squashfs-tools[lzma]
     dev-python/tomli-w
     dev-python/psutil
