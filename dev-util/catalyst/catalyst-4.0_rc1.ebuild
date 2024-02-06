@@ -15,14 +15,14 @@ else
         S="${WORKDIR}/${MY_P/_/-}"
 fi
 
-SRC_URI+=" https://gitlab.com/xenia-group/catalyst-patches/-/archive/4.0/catalyst-patches-4.0.tar.bz2" # oof hardcoding
+SRC_URI+=" https://gitlab.com/xenia-group/catalyst-patches/-/archive/${PV}/catalyst-patches-${PV}.tar.bz2"
 
 PYTHON_COMPAT=( python3_{9..11} )
 DISTUTILS_USE_PEP517=setuptools
 
 inherit distutils-r1 linux-info optfeature tmpfiles ${SRC_ECLASS}
 
-PATCHES="${WORKDIR}/catalyst-patches-4.0/binhost.patch"
+PATCHES="${WORKDIR}/catalyst-patches-${PV}/binhost.patch ${WORKDIR}/catalyst-patches-${PV}/gitlab.patch"
 
 DESCRIPTION="Release metatool used for creating releases based on Gentoo Linux"
 HOMEPAGE="https://wiki.gentoo.org/wiki/Catalyst"
