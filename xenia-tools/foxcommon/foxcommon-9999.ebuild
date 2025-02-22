@@ -7,9 +7,9 @@ inherit distutils-r1
 
 if [[ ${PV} = 9999 ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://gitlab.com/xenia-group/foxcommon.git"
+	EGIT_REPO_URI="https://github.com/MariaLinux/foxcommon.git"
 else
-	SRC_URI="https://gitlab.comf/xenia-group/foxsnapshot/-/archive/main/foxcommon.tar.gz"
+	SRC_URI="https://github.com/MariaLinux/foxcommon/archive/refs/heads/main.zip"
 	KEYWORDS="~amd64"
 fi
 

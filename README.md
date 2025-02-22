@@ -1,6 +1,6 @@
-# xenia-overlay
+# fox-overlay
 
-Portage overlay for Xenia Linux.
+Portage overlay for fox scripts.
 
 List of Maintainers:\
 Mia Neufeld - mia@xenialinux.com - Head Maintainer \
@@ -10,6 +10,6 @@ Jack Eilles jack@xenialinux.com
 How to install:
 
 ```sh
-eselect repository add xenia-overlay git https://gitlab.com/xenia-group/xenia-overlay.git
-emaint sync --repo xenia-overlay
+eselect repository add fox-overlay git https://github.com/MariaLinux/fox-overlay.git
+emaint sync --repo fox-overlay
 ```

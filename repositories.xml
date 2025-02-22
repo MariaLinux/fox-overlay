@@ -1,14 +1,14 @@
 <?xml version="1.0" ?>
 <repositories version="1.0">
   <repo quality="experimantal" status="uonofficial">
-    <name>xenia-overlay</name>
-      <description lang="en">Xenia Linux's Gentoo Overlay.</description>
-        <homepage>https://xenialinux.com</homepage>
+    <name>fox-overlay</name>
+      <description lang="en">fox script collection Gentoo Overlay.</description>
+        <homepage>https://github.com/MariaLinux/fox-overlay.git</homepage>
         <owner type="person">
           <name>Mia Neufeld</name>
           <email>koishi@koishi.de</name>
         </owner>
-        <source type="git">https://gitlab.com/xenia-group/xenia-overlay</git>
-        <feed>https://gitlab.com/xenia-group/xenia-overlay/commits/main.atom</feed>
+        <source type="git">https://github.com/MariaLinux/fox-overlay.git</git>
+        <feed>https://github.com/MariaLinux/fox-overlay/commits/main.atom</feed>
     </repo>
 </repositories>

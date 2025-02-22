@@ -8,9 +8,9 @@ inherit systemd
 
 if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://gitlab.com/xenia-group/declare-flatpak.git"
+	EGIT_REPO_URI="https://github.com/MariaLinux/declare-flatpak.git"
 else
-	SRC_URI="https://gitlab.com/xenia-group/declare-flatpak/-/archive/main/declare-flatpak-main.tar.gz"
+	SRC_URI="https://github.com/MariaLinux/declare-flatpak/archive/refs/heads/main.zip"
 	KEYWORDS="~amd64"
 fi
 

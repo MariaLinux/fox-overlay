@@ -7,9 +7,9 @@ inherit distutils-r1
 
 if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://gitlab.com/xenia-group/foxmerge.git"
+	EGIT_REPO_URI="https://github.com/MariaLinux/foxmerge.git"
 else
-	SRC_URI="https://gitlab.com/xenia-group/foxmerge/-/archive/main/foxmerge-main.tar.gz"
+	SRC_URI="https://github.com/MariaLinux/foxmerge/archive/refs/heads/main.zip"
 	KEYWORDS="~amd64"
 fi
 

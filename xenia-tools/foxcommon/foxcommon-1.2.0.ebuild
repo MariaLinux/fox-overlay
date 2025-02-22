@@ -10,7 +10,7 @@ if [[ ${PV} = 9999 ]]; then
     KEYWORDS="**"
 	EGIT_REPO_URI="https://gitlab.com/xenia-group/foxcommon.git"
 else
-	SRC_URI="https://gitlab.com/xenia-group/foxcommon/-/archive/${PV}/foxcommon-${PV}.tar.gz"
+	SRC_URI="https://github.com/MariaLinux/foxcommon/archive/refs/tags/${PV}.tar.gz"
 	KEYWORDS="amd64 arm64"
 fi
 
