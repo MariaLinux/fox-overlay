@@ -10,7 +10,7 @@ if [[ ${PV} == 9999 ]]; then
     KEYWORDS="**"
 	EGIT_REPO_URI="https://github.com/MariaLinux/foxupdate.git"
 else
-	SRC_URI="https://github.com/MariaLinux/foxupdate/archive/refs/tags/${PV}.tar.gz"
+	SRC_URI="https://github.com/MariaLinux/foxupdate/archive/refs/tags/${PV}.tar.gz -> ${PN}-${PV}.tar.gz"
 	KEYWORDS="amd64 arm64"
 fi
 

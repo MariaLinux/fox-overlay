@@ -9,7 +9,7 @@ if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/MariaLinux/foxupdate.git"
 else
-	SRC_URI="https://github.com/MariaLinux/foxupdate/archive/refs/heads/main.zip"
+	SRC_URI="https://github.com/MariaLinux/foxupdate/archive/refs/heads/main.zip -> ${PN}-${PV}.zip"
 	KEYWORDS="~amd64"
 fi
 
